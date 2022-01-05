@@ -8,9 +8,9 @@ This project is about creating a data driven AirBnb Experiences clone displaying
 - HTML5
 - CSS3
 - JavaScript
-<!-- - Font Awesome -->
 - Google Fonts
 - Chrome Development Tools
 - VS Code
 - Git
 - GitHub
+<!-- - Font Awesome -->
