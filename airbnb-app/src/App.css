@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
 }
 
 /* nav bg */
@@ -15,9 +15,6 @@ body {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-  position: relative;
-  left: -40px;
-  top: -16px;
 }
 
 /* nav img */
