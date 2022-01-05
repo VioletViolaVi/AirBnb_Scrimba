@@ -30,3 +30,11 @@ body {
   top: 22px;
   max-width: 100px;
 }
+
+/********************************************************* main */
+/* hero img */
+.main--el img {
+  display: block;
+  margin: 2rem auto;
+  width: 90%;
+}

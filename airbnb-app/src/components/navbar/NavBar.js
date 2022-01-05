@@ -1,9 +1,9 @@
-import navLogo from "../components/images/airbnb-logo.png";
+import navLogo from "../images/airbnb-logo.png";
 
 const NavBar = () => {
   return (
-    <nav>
-      <figure className={"nav-bg"}>
+    <nav className={"nav-bg"}>
+      <figure>
         <img src={navLogo} alt={"Logo for airbnb clone app."} />
       </figure>
     </nav>
