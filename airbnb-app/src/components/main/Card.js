@@ -1,4 +1,5 @@
 import swimmer from "../images/swimmer.png";
+import starInfo from "../images/starInfo.png";
 
 const Card = () => {
   return (
@@ -7,10 +8,14 @@ const Card = () => {
         <img src={swimmer} alt={"Swimmer called katie Zaferes."} />
       </figure>
       <p>SOLD OUT</p>
-      <ul className="bullet-points">
+      <figure>
+        <img src={starInfo} alt={"Info on what is above"} className="starInfo" />          
+      </figure>
+
+      {/* <ul className="bullet-points">
         <li>
-          <span>
-            <img src={"../images/star.png"} alt={""}/>
+          <span className={"star"}>
+            <img src={star} alt={""}/>
           </span>
           5.0
           <span className="country"> (6) USA </span>
@@ -19,7 +24,7 @@ const Card = () => {
         <li>
           <b>From $136</b> / person
         </li>
-      </ul>
+      </ul> */}
     </section>
   );
 };
