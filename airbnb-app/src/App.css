@@ -31,24 +31,22 @@ body {
   max-width: 100px;
 }
 
-/********************************************************* main */
-/* hero img */
-.main--el img {
+/********************************************************* main1 */
+.main1--el img {
   display: block;
   margin: 2rem auto;
   width: 90%;
 }
 
-/* text */
-.main--el h1,
-.main--el p {
+.main1--el h1,
+.main1--el p {
   position: absolute;
   left: 36px;
   font-style: normal;
   line-height: 110%;
 }
 
-.main--el h1 {
+.main1--el h1 {
   width: 347px;
   height: 40px;
   top: 360px;
@@ -56,11 +54,43 @@ body {
   font-size: 36px;
 }
 
-.main--el p {
+.main1--el p {
   width: 320px;
   height: 56px;
   top: 416px;
   font-weight: 300;
   font-size: 16px;
   color: #222222;
+}
+
+/********************************************************* main2 */
+.main2 img {
+  height: 20rem;
+  border-radius: 9px;
+}
+
+.main2 p {
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.bullet-points li {
+  list-style: none;
+  line-height: 1.7rem;
+}
+
+.bullet-points img {
+  position: relative;
+  width: 1.1rem;
+  height: 1rem;
+  margin-right: 0.1rem;
+}
+
+.country {
+  color: #918e9b;
 }

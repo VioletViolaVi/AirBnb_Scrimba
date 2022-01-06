@@ -10,7 +10,7 @@ const Card = () => {
       <ul className="bullet-points">
         <li>
           <span>
-            <img src={"../images/star.png"} />
+            <img src={"../images/star.png"} alt={""}/>
           </span>
           5.0
           <span className="country"> (6) USA </span>
