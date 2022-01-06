@@ -1,11 +1,11 @@
-import mainImg from "../images/photos-grid.png";
+import HeroImg from "./HeroImg";
+import Text from "./Text";
 
 const Main = () => {
   return (
     <main className={"main--el"}>
-      <figure>
-        <img src={mainImg} alt={"Grid of people and activities."} />
-      </figure>
+      <HeroImg />
+      <Text />
     </main>
   );
 };

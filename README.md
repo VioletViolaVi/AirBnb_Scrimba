@@ -8,6 +8,7 @@ This project is about creating a data driven AirBnb Experiences clone displaying
 - HTML5
 - CSS3
 - JavaScript
+- Figma
 - Google Fonts
 - Chrome Development Tools
 - VS Code
