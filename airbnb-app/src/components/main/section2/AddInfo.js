@@ -1,6 +1,7 @@
 import star from "../../images/star.png";
 
 const AddInfo = (props) => {
+  console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
   return (
     <div className="ad-info-custom-defaults">
       <div className="rating">

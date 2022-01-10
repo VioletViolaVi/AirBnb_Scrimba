@@ -1,4 +1,5 @@
 const PosterAd = (props) => {
+  console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
   return (
     <figure>
       <img
