@@ -15,10 +15,11 @@ const Card = () => {
         </figure>
       </div>
 
-      <div>
+      <div className="ad-info-custom-defaults">
         <div className="rating">
-          <img src={star} alt={""} />
-          5.0 (6) USA
+          <img src={star} alt={""} className="star-rating-img" />
+          5.0
+          <span>(6) USA</span>
         </div>
 
         <div className="lesson-name">Life lessons with Katie Zaferes</div>
