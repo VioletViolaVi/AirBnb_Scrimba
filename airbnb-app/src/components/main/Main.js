@@ -1,6 +1,7 @@
-import Card from "./section2/Card";
 import HeroImg from "./section1/HeroImg";
 import Text from "./section1/Text";
+import PosterAd from "./section2/PosterAd";
+import AddInfo from "./section2/AddInfo";
 
 const Main = () => {
   return (
@@ -10,7 +11,8 @@ const Main = () => {
         <Text />
       </section>
       <section>
-        <Card />
+        <PosterAd />
+        <AddInfo />
       </section>
     </main>
   );
