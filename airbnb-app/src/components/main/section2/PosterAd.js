@@ -1,14 +1,12 @@
-import swimmer from "../../images/swimmer.png";
-
-const PosterAd = () => {
+const PosterAd = (props) => {
   return (
     <figure>
       <img
+        src={props.posterImage}
+        alt={props.altTextImage}
         className="advert-img"
-        src={swimmer}
-        alt={"Swimmer called katie Zaferes."}
       />
-      <figcaption className="sold-status">SOLD OUT</figcaption>
+      <figcaption className="sold-status">{props.soldStatus}</figcaption>
     </figure>
   );
 };

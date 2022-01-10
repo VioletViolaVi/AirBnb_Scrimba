@@ -1,18 +1,20 @@
 import star from "../../images/star.png";
 
-const AddInfo = () => {
+const AddInfo = (props) => {
   return (
     <div className="ad-info-custom-defaults">
       <div className="rating">
         <img src={star} alt={""} className="star-rating-img" />
-        5.0
-        <span>(6) USA</span>
+        {props.starRating}
+        <span>
+          ({props.howManyReviews}) {props.location}
+        </span>
       </div>
 
-      <div className="lesson-name">Life lessons with Katie Zaferes</div>
+      <div className="lesson-name">{props.lessonTitle}</div>
 
       <div className="price">
-        <b>From $136</b> / person
+        <b>From £{props.price}</b> / person
       </div>
     </div>
   );

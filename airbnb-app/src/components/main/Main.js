@@ -11,8 +11,18 @@ const Main = () => {
         <Text />
       </section>
       <section>
-        <PosterAd />
-        <AddInfo />
+        <PosterAd
+          posterImage="static/media/swimmer.4dcb2224d553ccd977a4.png"
+          altTextImage="Swimmer called katie Zaferes."
+          soldStatus="SOLD OUT"
+        />
+        <AddInfo
+          starRating={5.0}
+          howManyReviews={6}
+          location="USA"
+          lessonTitle="Life lessons with Katie Zaferes"
+          price={136}
+        />
       </section>
     </main>
   );
