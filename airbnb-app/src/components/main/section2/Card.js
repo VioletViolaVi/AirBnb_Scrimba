@@ -1,5 +1,5 @@
-import swimmer from "../images/swimmer.png";
-import star from "../images/star.png";
+import swimmer from "../../images/swimmer.png";
+import star from "../../images/star.png";
 
 const Card = () => {
   return (

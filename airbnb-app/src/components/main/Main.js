@@ -1,6 +1,6 @@
-import Card from "./Card";
-import HeroImg from "./HeroImg";
-import Text from "./Text";
+import Card from "./section2/Card";
+import HeroImg from "./section1/HeroImg";
+import Text from "./section1/Text";
 
 const Main = () => {
   return (
