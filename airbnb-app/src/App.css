@@ -1,4 +1,4 @@
-/* defaults */
+/********************************************************* custom defaults */
 
 * {
   margin: 0;
@@ -7,12 +7,12 @@
 }
 
 body {
-  font-family: "Poppins" sans-serif;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
   cursor: default;
 }
 
 /********************************************************* navbar */
-/* nav bg */
 .nav-bg {
   width: 100%;
   height: 70px;
@@ -21,85 +21,61 @@ body {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-/* nav img */
 .nav-bg img {
   position: absolute;
-  width: 82.02px;
-  height: 25.35px;
-  left: 30px;
-  top: 22px;
+  left: 1rem;
+  top: 1.5rem;
+  width: 30%;
   max-width: 100px;
 }
 
-/********************************************************* main1 */
-.main1--el img {
+/********************************************************* hero area */
+.gallery-img {
   display: block;
   margin: 2rem auto;
   width: 90%;
+  max-width: 800px;
 }
 
-.main1--el h1,
-.main1--el p {
-  position: absolute;
-  left: 36px;
-  font-style: normal;
-  line-height: 110%;
-}
-
-.main1--el h1 {
-  width: 347px;
-  height: 40px;
-  top: 360px;
+.title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.5rem;
+  line-height: 110%;
+  color: #000;
+  margin-left: 1rem;
 }
 
-.main1--el p {
-  width: 320px;
-  height: 56px;
-  top: 416px;
+.title-para {
   font-weight: 300;
-  font-size: 1.5rem;
-  color: #222222;
+  font-size: 1.2rem;
+  line-height: 110%;
+  color: #222;
+  margin: 1rem;
 }
 
-/********************************************************* main2 */
-.main2 img {
-  margin-top: 14rem;
-  margin-bottom: 0;
+/********************************************************* lesson adverts */
+.advert-img {
+  display: block;
+  margin: 2rem auto 0;
+  width: 90%;
+  max-width: 300px;
+  position: relative;
+  height: auto;
 }
 
-.main2 p {
-  left: 2rem;
-  top: 35rem;
-  background-color: #fff;
-  padding: 0.5rem 1rem 0.5rem;
-  border-radius: 0.3rem;
-  font-weight: bold;
-  width: 9.5rem;
-  height: 2.8rem;
-  font-size: 1.5rem;
-}
-
-figure .starInfo {
-  width: 23rem;
-  height: 8rem;
-  margin: 1rem 0 1rem 1.5rem;
-}
-
-/* .bullet-points {
+.sold-status {
   position: absolute;
-  top: 51rem;
-  left: 2rem;
+  bottom: 15%;
+  left: 9%;
+  background-color: #fff;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-weight: bold;
+  width: 7rem;
+  max-width: 610px;
 }
 
-.bullet-points li {
-  list-style: none;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
+.rating {
+  margin: 2rem auto 0;
 }
-
-.country {
-  color: #918e9b;
-}
-*/

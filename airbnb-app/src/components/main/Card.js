@@ -1,31 +1,33 @@
 import swimmer from "../images/swimmer.png";
-import starInfo from "../images/starInfo.png";
+import star from "../images/star.png";
 
 const Card = () => {
   return (
-    <section className="main2">
-      <figure>
-        <img src={swimmer} alt={"Swimmer called katie Zaferes."} />
-      </figure>
-      <p>SOLD OUT</p>
-      <figure>
-        <img src={starInfo} alt={"Info on what is above"} className="starInfo" />          
-      </figure>
+    <>
+      <div>
+        <figure>
+          <img
+            className="advert-img"
+            src={swimmer}
+            alt={"Swimmer called katie Zaferes."}
+          />
+          <figcaption className="sold-status">SOLD OUT</figcaption>
+        </figure>
+      </div>
 
-      {/* <ul className="bullet-points">
-        <li>
-          <span className={"star"}>
-            <img src={star} alt={""}/>
-          </span>
-          5.0
-          <span className="country"> (6) USA </span>
-        </li>
-        <li>Life lessons with Katie Zaferes</li>
-        <li>
+      <div>
+        <div className="rating">
+          <img src={star} alt={""} />
+          5.0 (6) USA
+        </div>
+
+        <div className="lesson-name">Life lessons with Katie Zaferes</div>
+
+        <div className="price">
           <b>From $136</b> / person
-        </li>
-      </ul> */}
-    </section>
+        </div>
+      </div>
+    </>
   );
 };
 export default Card;
