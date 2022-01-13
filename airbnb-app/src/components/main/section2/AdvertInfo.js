@@ -1,6 +1,6 @@
 import star from "../../images/star.png";
 
-const AddInfo = (props) => {
+const AdvertInfo = (props) => {
   console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
   return (
     <div className="ad-info-custom-defaults">
@@ -20,4 +20,4 @@ const AddInfo = (props) => {
     </div>
   );
 };
-export default AddInfo;
+export default AdvertInfo;

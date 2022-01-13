@@ -1,7 +1,7 @@
 import HeroImg from "./section1/HeroImg";
 import Text from "./section1/Text";
-import PosterAd from "./section2/PosterAd";
-import AddInfo from "./section2/AddInfo";
+import AdvertImage from "./section2/AdvertImage";
+import AdvertInfo from "./section2/AdvertInfo";
 
 const Main = () => {
   return (
@@ -11,12 +11,12 @@ const Main = () => {
         <Text />
       </section>
       <section>
-        <PosterAd
+        <AdvertImage
           posterImage="static/media/swimmer.4dcb2224d553ccd977a4.png"
           altTextImage="Swimmer called katie Zaferes."
           soldStatus="SOLD OUT"
         />
-        <AddInfo
+        <AdvertInfo
           starRating={5.0}
           howManyReviews={6}
           location="USA"

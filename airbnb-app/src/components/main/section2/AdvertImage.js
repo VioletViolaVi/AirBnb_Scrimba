@@ -1,4 +1,4 @@
-const PosterAd = (props) => {
+const AdvertImage = (props) => {
   console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
   return (
     <figure>
@@ -11,4 +11,4 @@ const PosterAd = (props) => {
     </figure>
   );
 };
-export default PosterAd;
+export default AdvertImage;
