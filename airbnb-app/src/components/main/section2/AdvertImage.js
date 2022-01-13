@@ -1,10 +1,14 @@
+import advertPic from "../../images/swimmer.png";
+
 const AdvertImage = (props) => {
   console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
+  // src={props.posterImage}
+  
   return (
-    <figure>
+    <figure className="poster-img-container">
       <img
-        src={props.posterImage}
         alt={props.altTextImage}
+        src={advertPic}
         className="advert-img"
       />
       <figcaption className="sold-status">{props.soldStatus}</figcaption>
