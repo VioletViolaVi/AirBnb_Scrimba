@@ -1,15 +1,15 @@
-import advertPic from "../../images/swimmer.png";
+// import advertPic from "../../images/swimmer.png";
+// src={advertPic}
 
 const AdvertImage = (props) => {
   console.log(props); // HERE!!!!!!!!!!!!!!!!!!!!!!!!!
-  // src={props.posterImage}
   
   return (
     <figure className="poster-img-container">
       <img
         alt={props.altTextImage}
-        src={advertPic}
         className="advert-img"
+        src={props.posterImage}
       />
       <figcaption className="sold-status">{props.soldStatus}</figcaption>
     </figure>
