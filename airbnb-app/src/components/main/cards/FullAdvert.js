@@ -13,16 +13,19 @@ const FullAdvert = ({
 }) => {
   // dynamically added card details
   return (
-    <>
+    <section>
+      {/* image section */}
       <figure className="poster-img-container">
         <img
           src={`../../images/${posterImage}`}
           alt={altTextImage}
           className="advert-img"
         />
+
         <figcaption className="sold-status">{soldStatus}</figcaption>
       </figure>
 
+      {/* text section */}
       <div className="ad-info-custom-defaults">
         <div className="rating">
           <img src={star} alt={""} className="star-rating-img" />
@@ -38,7 +41,7 @@ const FullAdvert = ({
           <b>From £{price}</b> / person
         </div>
       </div>
-    </>
+    </section>
   );
 };
 export default FullAdvert;

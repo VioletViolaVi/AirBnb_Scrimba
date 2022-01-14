@@ -54,6 +54,12 @@ body {
 }
 
 /********************************************************* adverts */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .poster-img-container {
   position: relative;
 }
@@ -73,6 +79,7 @@ body {
   text-align: center;
   font-weight: bold;
   width: 7rem;
+  font-size: 1.3rem;
 }
 
 .ad-info-custom-defaults {
@@ -95,6 +102,7 @@ body {
   font-weight: 300;
   line-height: 145%;
   color: #222222;
+  font-size: 1.3rem;
 }
 
 .price {

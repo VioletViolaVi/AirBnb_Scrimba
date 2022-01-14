@@ -29,7 +29,7 @@ const Main = () => {
         <HeroImg />
         <Text />
       </section>
-      <section>{fullCardInfo}</section>
+      <section className="flex-container">{fullCardInfo}</section>
     </main>
   );
 };
