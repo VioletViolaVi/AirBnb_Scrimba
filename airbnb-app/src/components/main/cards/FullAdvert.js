@@ -1,16 +1,16 @@
 import star from "../../images/star.png";
 
 // props passed through in <FullAdvert />
-const FullAdvert = ({
-  posterImage,
-  altTextImage,
-  soldStatus,
-  starRating,
-  howManyReviews,
-  location,
-  lessonTitle,
-  price,
-}) => {
+const FullAdvert = ({ posterImage, altTextImage, soldOrOnline, starRating, howManyReviews, location, lessonTitle, price}) => {
+
+  // decides what badgeText will be
+  let badgeText;
+  if (soldOrOnline === 0) {
+    badgeText = "SOLD OUT";
+  } else if (location === "Online") {
+    badgeText = "ONLINE";
+  }
+
   // dynamically added card details
   return (
     <section>
@@ -21,8 +21,10 @@ const FullAdvert = ({
           alt={altTextImage}
           className="advert-img"
         />
-
-        <figcaption className="sold-status">{soldStatus}</figcaption>
+        {/* (only) if badgeText has a value... */}
+        {badgeText && (
+          <figcaption className="sold-status">{badgeText}</figcaption>
+        )}
       </figure>
 
       {/* text section */}

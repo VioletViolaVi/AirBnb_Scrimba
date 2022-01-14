@@ -12,7 +12,6 @@ const dataArrOfObjs = [
     },
     location: "Online",
     openSpots: 0,
-    soldStatus: "SOLD OUT",
   },
   {
     id: 2,
@@ -27,7 +26,6 @@ const dataArrOfObjs = [
     },
     location: "Online",
     openSpots: 27,
-    soldStatus: "SELLING",
   },
   {
     id: 3,
@@ -42,7 +40,6 @@ const dataArrOfObjs = [
     },
     location: "Norway",
     openSpots: 3,
-    soldStatus: "SOLD OUT",
   },
 ];
 export default dataArrOfObjs;

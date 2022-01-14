@@ -11,7 +11,7 @@ const Main = () => {
         key={singleObj.id}
         posterImage={singleObj.coverImg}
         altTextImage={singleObj.title}
-        soldStatus={singleObj.soldStatus}
+        soldOrOnline={singleObj.openSpots}
         starRating={singleObj.stats.rating}
         howManyReviews={singleObj.stats.reviewCount}
         location={singleObj.location}
