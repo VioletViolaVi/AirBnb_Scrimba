@@ -20,7 +20,6 @@ const Main = () => {
       />
     );
   });
-  console.log(fullCardInfo);
 
   // shows hero img, title and cards
   return (
