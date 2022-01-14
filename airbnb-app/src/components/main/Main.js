@@ -1,29 +1,35 @@
 import HeroImg from "./section1/HeroImg";
 import Text from "./section1/Text";
-import AdvertImage from "./section2/AdvertImage";
-import AdvertInfo from "./section2/AdvertInfo";
+// import AdvertImage from "./section2/AdvertImage";
+// import AdvertInfo from "./section2/AdvertInfo";
+import dataArrOfObjs from "../data/data";
+import FullAdvert from "./section2/FullAdvert";
 
 const Main = () => {
+  console.log(dataArrOfObjs);
+
+  const fullCardInfo = dataArrOfObjs.map((singleObj) => {
+    return (
+      <FullAdvert
+        posterImage={singleObj.coverImg}
+        altTextImage={singleObj.title}
+        soldStatus={singleObj.soldStatus}
+        starRating={singleObj.stats.rating}
+        howManyReviews={singleObj.stats.reviewCount}
+        location={singleObj.location}
+        lessonTitle={singleObj.title}
+        price={singleObj.price}
+      />
+    );
+  });
+
   return (
     <main>
       <section>
         <HeroImg />
         <Text />
       </section>
-      <section>
-        <AdvertImage
-          posterImage="static/media/swimmer.4dcb2224d553ccd977a4.png"
-          altTextImage="Swimmer called katie Zaferes."
-          soldStatus="SOLD OUT"
-        />
-        <AdvertInfo
-          starRating={5.0}
-          howManyReviews={6}
-          location="USA"
-          lessonTitle="Life lessons with Katie Zaferes"
-          price={136}
-        />
-      </section>
+      <section>{fullCardInfo}</section>
     </main>
   );
 };
