@@ -1,7 +1,6 @@
-// import advertPic from "../../images/swimmer.png";
-// src={advertPic}
 import star from "../../images/star.png";
 
+// props passed through in <FullAdvert />
 const FullAdvert = ({
   posterImage,
   altTextImage,
@@ -12,10 +11,15 @@ const FullAdvert = ({
   lessonTitle,
   price,
 }) => {
+  // dynamically added card details
   return (
     <>
       <figure className="poster-img-container">
-        <img src={posterImage} alt={altTextImage} className="advert-img" />
+        <img
+          src={`../../images/${posterImage}`}
+          alt={altTextImage}
+          className="advert-img"
+        />
         <figcaption className="sold-status">{soldStatus}</figcaption>
       </figure>
 
