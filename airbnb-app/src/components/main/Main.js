@@ -1,13 +1,12 @@
 import HeroImg from "./section1/HeroImg";
 import Text from "./section1/Text";
-// import AdvertImage from "./section2/AdvertImage";
-// import AdvertInfo from "./section2/AdvertInfo";
 import dataArrOfObjs from "../data/data";
 import FullAdvert from "./section2/FullAdvert";
 
 const Main = () => {
   console.log(dataArrOfObjs);
 
+  // creating variable
   const fullCardInfo = dataArrOfObjs.map((singleObj) => {
     return (
       <FullAdvert
@@ -29,6 +28,7 @@ const Main = () => {
         <HeroImg />
         <Text />
       </section>
+      {/* using variable */}
       <section>{fullCardInfo}</section>
     </main>
   );
