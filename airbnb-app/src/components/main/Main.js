@@ -1,13 +1,14 @@
-import HeroImg from "./section1/HeroImg";
-import Text from "./section1/Text";
+import HeroImg from "./hero/HeroImg";
+import Text from "./hero/Text";
 import dataArrOfObjs from "../data/data";
-import FullAdvert from "./section2/FullAdvert";
+import FullAdvert from "./cards/FullAdvert";
 
 const Main = () => {
   // mapping through card details
   const fullCardInfo = dataArrOfObjs.map((singleObj) => {
     return (
       <FullAdvert
+        key={singleObj.id}
         posterImage={singleObj.coverImg}
         altTextImage={singleObj.title}
         soldStatus={singleObj.soldStatus}
@@ -19,6 +20,7 @@ const Main = () => {
       />
     );
   });
+  console.log(fullCardInfo);
 
   // shows hero img, title and cards
   return (
