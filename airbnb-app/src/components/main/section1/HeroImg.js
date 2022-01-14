@@ -1,4 +1,4 @@
-import mainImg from "../../images/photos-grid.png";
+import mainImg from "../../images/gallery.png";
 
 const HeroImg = () => {
   return (
