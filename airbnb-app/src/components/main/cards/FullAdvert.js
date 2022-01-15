@@ -1,13 +1,13 @@
 import star from "../../images/star.png";
 
 // props passed through in <FullAdvert />
-const FullAdvert = ({ posterImage, altTextImage, soldOrOnline, starRating, howManyReviews, location, lessonTitle, price}) => {
-
+const FullAdvert = ({ fullObj }) => {
+  console.log(fullObj);
   // decides what badgeText will be
   let badgeText;
-  if (soldOrOnline === 0) {
+  if (fullObj.openSpots === 0) {
     badgeText = "SOLD OUT";
-  } else if (location === "Online") {
+  } else if (fullObj.location === "Online") {
     badgeText = "ONLINE";
   }
 
@@ -17,8 +17,8 @@ const FullAdvert = ({ posterImage, altTextImage, soldOrOnline, starRating, howMa
       {/* image section */}
       <figure className="poster-img-container">
         <img
-          src={`../../images/${posterImage}`}
-          alt={altTextImage}
+          src={`../../images/${fullObj.coverImg}`}
+          alt={fullObj.title}
           className="advert-img"
         />
         {/* (only) if badgeText has a value... */}
@@ -31,16 +31,16 @@ const FullAdvert = ({ posterImage, altTextImage, soldOrOnline, starRating, howMa
       <div className="ad-info-custom-defaults">
         <div className="rating">
           <img src={star} alt={""} className="star-rating-img" />
-          {starRating}
+          {fullObj.stats.rating}
           <span>
-            ({howManyReviews}) {location}
+            ({fullObj.stats.reviewCount}) {fullObj.location}
           </span>
         </div>
 
-        <div className="lesson-name">{lessonTitle}</div>
+        <div className="lesson-name">{fullObj.title}</div>
 
         <div className="price">
-          <b>From £{price}</b> / person
+          <b>From £{fullObj.price}</b> / person
         </div>
       </div>
     </section>

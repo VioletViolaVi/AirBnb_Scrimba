@@ -6,19 +6,7 @@ import FullAdvert from "./cards/FullAdvert";
 const Main = () => {
   // mapping through card details
   const fullCardInfo = dataArrOfObjs.map((singleObj) => {
-    return (
-      <FullAdvert
-        key={singleObj.id}
-        posterImage={singleObj.coverImg}
-        altTextImage={singleObj.title}
-        soldOrOnline={singleObj.openSpots}
-        starRating={singleObj.stats.rating}
-        howManyReviews={singleObj.stats.reviewCount}
-        location={singleObj.location}
-        lessonTitle={singleObj.title}
-        price={singleObj.price}
-      />
-    );
+    return <FullAdvert key={singleObj.id} fullObj={singleObj} />;
   });
 
   // shows hero img, title and cards
