@@ -20,6 +20,4 @@ This project is about creating a data driven AirBnb Experiences clone displaying
   - [Photo by Sincerely Media](https://images.unsplash.com/photo-1624715136693-c06de266b622?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
   - [Photo by Ben Wicks](https://images.unsplash.com/photo-1602514328225-24d95071ec93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
   - [Photo by Роман Смирнов](https://images.unsplash.com/photo-1631677757514-f82ec5ee2b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80)
-  - [Photo by rakabtw\_](https://images.unsplash.com/photo-1606046604972-77cc76aee944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxob3RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)
-
-<!-- - [Font Awesome](https://fontawesome.com/) -->
+  - [Photo by rakabtw\_](https://images.unsplash.com/photo-1606046604972-77cc76aee944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxob3RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) 
