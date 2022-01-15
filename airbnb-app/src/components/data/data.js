@@ -59,7 +59,7 @@ const dataArrOfObjs = [
     title: "Bake with us!",
     description: "Learn how to bake with us!",
     price: 3467.94,
-    coverImg: "bake.png",
+    coverImg: "bake.jpg",
     stats: {
       rating: 4.9,
       reviewCount: 75,
@@ -72,7 +72,7 @@ const dataArrOfObjs = [
     title: "Funny clowns have most fun",
     description: "Experience the clowns for yourself.",
     price: 24,
-    coverImg: "clown.png",
+    coverImg: "clown.jpg",
     stats: {
       rating: 2,
       reviewCount: 45,
