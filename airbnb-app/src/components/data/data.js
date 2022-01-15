@@ -66,19 +66,6 @@ const dataArrOfObjs = [
   },
   {
     id: 6,
-    title: "Funny clowns have most fun",
-    description: "Experience the clowns for yourself.",
-    price: 24,
-    coverImg: "clown.jpg",
-    stats: {
-      rating: 2,
-      reviewCount: 45,
-    },
-    location: "Scotland",
-    openSpots: 9,
-  },
-  {
-    id: 7,
     title: "Hot air balloon rides",
     description: "Come ride with us.",
     price: 849,
@@ -91,7 +78,7 @@ const dataArrOfObjs = [
     openSpots: 10,
   },
   {
-    id: 8,
+    id: 7,
     title: "Hotel stay",
     description: "Nice hotel to stay in.",
     price: 99,
@@ -104,7 +91,7 @@ const dataArrOfObjs = [
     openSpots: 0,
   },
   {
-    id: 9,
+    id: 8,
     title: "Tennis Time",
     description: "Time to play tennis.",
     price: 2,
@@ -115,6 +102,19 @@ const dataArrOfObjs = [
     },
     location: "Wales",
     openSpots: 0,
+  },
+  {
+    id: 9,
+    title: "Funny clowns have most fun",
+    description: "Experience the clowns for yourself.",
+    price: 24,
+    coverImg: "clown.jpg",
+    stats: {
+      rating: 2,
+      reviewCount: 45,
+    },
+    location: "Scotland",
+    openSpots: 9,
   },
 ];
 export default dataArrOfObjs;
