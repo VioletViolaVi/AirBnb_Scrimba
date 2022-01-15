@@ -43,7 +43,7 @@ const dataArrOfObjs = [
   },
   {
     id: 4,
-    title: "Learn how to paint.",
+    title: "Learn how to paint",
     description: "Interested in painting? Learn how to paint here!",
     price: 589,
     coverImg: "painter.jpg",
@@ -54,61 +54,70 @@ const dataArrOfObjs = [
     location: "Peru",
     openSpots: 0,
   },
-  // {
-  //   id: 5,
-  //   title: "",
-  //   description:
-  //     "",
-  //   price: ,
-  //   coverImg: ",
-  //   stats: {
-  //     rating: ,
-  //     reviewCount: ,
-  //   },
-  //   location: "",
-  //   openSpots: ,
-  // },
-  // {
-  //   id: 6,
-  //   title: "",
-  //   description:
-  //     "",
-  //   price: ,
-  //   coverImg: ",
-  //   stats: {
-  //     rating: ,
-  //     reviewCount: ,
-  //   },
-  //   location: "",
-  //   openSpots: ,
-  // },
-  // {
-  //   id: 7,
-  //   title: "",
-  //   description:
-  //     "",
-  //   price: ,
-  //   coverImg: ",
-  //   stats: {
-  //     rating: ,
-  //     reviewCount: ,
-  //   },
-  //   location: "",
-  //   openSpots: ,
-  // },
-  // {
-  //   id: 8,
-  //   title: "",
-  //   description:
-  //     "",
-  //   price: ,
-  //   coverImg: ",
-  //   stats: {
-  //     rating: ,
-  //     reviewCount: ,
-  //   },
-  //   location: "",
-  //   openSpots: ,
-  // },
+  {
+    id: 5,
+    title: "Bake with us!",
+    description: "Learn how to bake with us!",
+    price: 3467.94,
+    coverImg: "bake.png",
+    stats: {
+      rating: 4.9,
+      reviewCount: 75,
+    },
+    location: "UK",
+    openSpots: 0,
+  },
+  {
+    id: 6,
+    title: "Funny clowns have most fun",
+    description: "Experience the clowns for yourself.",
+    price: 24,
+    coverImg: "clown.png",
+    stats: {
+      rating: 2,
+      reviewCount: 45,
+    },
+    location: "Scotland",
+    openSpots: 9,
+  },
+  {
+    id: 7,
+    title: "Hot air balloon rides",
+    description: "Come ride with us.",
+    price: 849,
+    coverImg: "hot_air_balloons.jpg",
+    stats: {
+      rating: 2.6,
+      reviewCount: 9,
+    },
+    location: "Wales",
+    openSpots: 0,
+  },
+  {
+    id: 8,
+    title: "Hotel stay",
+    description: "Nice hotel to stay in.",
+    price: 99,
+    coverImg: "hotel.jpg",
+    stats: {
+      rating: 3.7,
+      reviewCount: 3,
+    },
+    location: "USA",
+    openSpots: 2,
+  },
+  {
+    id: 9,
+    title: "Tennis Time",
+    description: "Time to play tennis.",
+    price: 2,
+    coverImg: "tennis.jpg",
+    stats: {
+      rating: 1.5,
+      reviewCount: 8,
+    },
+    location: "USA",
+    openSpots: 0,
+  },
 ];
 export default dataArrOfObjs;
