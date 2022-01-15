@@ -4,14 +4,14 @@ This project is about creating a data driven AirBnb Experiences clone displaying
 
 # Technologies Used
 
-- React
-- HTML5
-- CSS3
-- JavaScript
-- Figma
-- Google Fonts
-- Chrome Development Tools
-- VS Code
-- Git
-- GitHub
-<!-- - Font Awesome -->
+- [React](https://reactjs.org/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Figma](https://www.figma.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Chrome Development Tools](https://developer.chrome.com/docs/)
+- [VS Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+<!-- - [Font Awesome](https://fontawesome.com/) -->
