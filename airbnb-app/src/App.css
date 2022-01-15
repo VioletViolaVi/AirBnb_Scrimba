@@ -109,6 +109,10 @@ body {
   font-size: 1.2rem;
 }
 
+.description {
+  font-size: 1rem;
+}
+
 .price {
   margin-bottom: 1rem;
 }

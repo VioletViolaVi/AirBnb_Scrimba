@@ -1,7 +1,16 @@
 import star from "../../images/star.png";
 
 // props passed through in <FullAdvert />
-const FullAdvert = ({ coverImg, title, openSpots, stats:{rating}, stats:{reviewCount}, location, price }) => {
+const FullAdvert = ({
+  coverImg,
+  title,
+  openSpots,
+  stats: { rating },
+  stats: { reviewCount },
+  location,
+  description,
+  price,
+}) => {
   // decides what badgeText will be
   let badgeText;
   if (openSpots === 0) {
@@ -37,6 +46,8 @@ const FullAdvert = ({ coverImg, title, openSpots, stats:{rating}, stats:{reviewC
         </div>
 
         <div className="lesson-name">{title}</div>
+
+        <div className="description">{description}</div>
 
         <div className="price">
           <b>From £{price}</b> / person

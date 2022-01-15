@@ -2,8 +2,7 @@ const dataArrOfObjs = [
   {
     id: 1,
     title: "Life Lessons with Katie Zaferes",
-    description:
-      'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
+    description: "Learn how to swim.",
     price: 136,
     coverImg: "swimmer.png",
     stats: {
@@ -16,8 +15,7 @@ const dataArrOfObjs = [
   {
     id: 2,
     title: "Learn Wedding Photography",
-    description:
-      "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+    description: "Learn photography techniques.",
     price: 125,
     coverImg: "wedding.png",
     stats: {
@@ -30,8 +28,7 @@ const dataArrOfObjs = [
   {
     id: 3,
     title: "Group Mountain Biking",
-    description:
-      "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+    description: "Experience Norwegian landscapes.",
     price: 50,
     coverImg: "bike.png",
     stats: {
@@ -44,7 +41,7 @@ const dataArrOfObjs = [
   {
     id: 4,
     title: "Learn how to paint",
-    description: "Interested in painting? Learn how to paint here!",
+    description: "Interested? Learn how to paint here!",
     price: 589,
     coverImg: "painter.jpg",
     stats: {
@@ -90,8 +87,8 @@ const dataArrOfObjs = [
       rating: 2.6,
       reviewCount: 9,
     },
-    location: "Wales",
-    openSpots: 0,
+    location: "Online",
+    openSpots: 10,
   },
   {
     id: 8,
@@ -104,7 +101,7 @@ const dataArrOfObjs = [
       reviewCount: 3,
     },
     location: "USA",
-    openSpots: 2,
+    openSpots: 0,
   },
   {
     id: 9,
@@ -116,7 +113,7 @@ const dataArrOfObjs = [
       rating: 1.5,
       reviewCount: 8,
     },
-    location: "USA",
+    location: "Wales",
     openSpots: 0,
   },
 ];
