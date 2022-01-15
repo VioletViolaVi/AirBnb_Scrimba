@@ -41,5 +41,74 @@ const dataArrOfObjs = [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "Learn how to paint.",
+    description: "Interested in painting? Learn how to paint here!",
+    price: 589,
+    coverImg: "painter.jpg",
+    stats: {
+      rating: 3.9,
+      reviewCount: 4,
+    },
+    location: "Peru",
+    openSpots: 0,
+  },
+  // {
+  //   id: 5,
+  //   title: "",
+  //   description:
+  //     "",
+  //   price: ,
+  //   coverImg: ",
+  //   stats: {
+  //     rating: ,
+  //     reviewCount: ,
+  //   },
+  //   location: "",
+  //   openSpots: ,
+  // },
+  // {
+  //   id: 6,
+  //   title: "",
+  //   description:
+  //     "",
+  //   price: ,
+  //   coverImg: ",
+  //   stats: {
+  //     rating: ,
+  //     reviewCount: ,
+  //   },
+  //   location: "",
+  //   openSpots: ,
+  // },
+  // {
+  //   id: 7,
+  //   title: "",
+  //   description:
+  //     "",
+  //   price: ,
+  //   coverImg: ",
+  //   stats: {
+  //     rating: ,
+  //     reviewCount: ,
+  //   },
+  //   location: "",
+  //   openSpots: ,
+  // },
+  // {
+  //   id: 8,
+  //   title: "",
+  //   description:
+  //     "",
+  //   price: ,
+  //   coverImg: ",
+  //   stats: {
+  //     rating: ,
+  //     reviewCount: ,
+  //   },
+  //   location: "",
+  //   openSpots: ,
+  // },
 ];
 export default dataArrOfObjs;

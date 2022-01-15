@@ -70,6 +70,8 @@ body {
 
 .advert-img {
   width: 20rem;
+  height: 25rem;
+  border-radius: 1rem;
 }
 
 .sold-status {

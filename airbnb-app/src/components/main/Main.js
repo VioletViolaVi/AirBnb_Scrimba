@@ -24,6 +24,7 @@ const Main = () => {
           lessonTitle={singleObj.title}
           price={singleObj.price}
       */
+     
       /* 
           // use this way when you want to pass whole object in component's function w/ a custom prop ('variable')
           key={singleObj.id}
